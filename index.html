@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Beauty Parlor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Glow Beauty</h2>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Book Now</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h1>Enhance Your Beauty</h1>
+        <p>Professional Makeup & Skin Care Services</p>
+        <a href="#contact" class="btn">Book Appointment</a>
+    </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-container">
+        <div class="card">
+            <h3>Facial</h3>
+            <p>Glow-enhancing facial treatments for all skin types.</p>
+        </div>
+        <div class="card">
+            <h3>Hair Styling</h3>
+            <p>Trendy hairstyles and professional hair care.</p>
+        </div>
+        <div class="card">
+            <h3>Makeup</h3>
+            <p>Bridal & party makeup with premium products.</p>
+        </div>
+        <div class="card">
+            <h3>Manicure</h3>
+            <p>Beautiful nail care and spa treatments.</p>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        At Glow Beauty Parlor, we provide high-quality beauty services with
+        experienced professionals. Your beauty and satisfaction are our priority.
+    </p>
+</section>
+
+<!-- Contact / Booking -->
+<section id="contact" class="contact">
+    <h2>Book Appointment</h2>
+   <form id="bookingForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="date" id="date" required>
+    
+    <select id="service" required>
+        <option value="">Select Service</option>
+        <option>Facial</option>
+        <option>Hair Styling</option>
+        <option>Makeup</option>
+        <option>Manicure</option>
+    </select>
+
+    <button type="submit">Submit</button>
+</form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Glow Beauty Parlor | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html> 
